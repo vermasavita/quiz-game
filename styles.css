@@ -1,0 +1,145 @@
+body {
+    background-origin: padding-box;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+}
+
+.header {
+    background-color: white;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 0rem;
+}
+
+.link {
+    text-align: center;
+
+}
+
+.header {
+    color: rgb(226, 158, 31);
+    text-align: center;
+    margin-bottom: 7rem;
+
+}
+
+.length-input {
+    display: block;
+    margin: auto;
+}
+
+.button {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: orange;
+    color: rgb(34, 34, 141);
+    border: none;
+    height: 2rem;
+    width: 6rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rems
+}
+
+.label {
+    display: block;
+    margin: auto;
+    padding-left: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.angle-input {
+    margin: auto;
+    display: auto;
+    margin-bottom: 2rem;
+    color: black;
+    height: 2rem;
+    font-weight: x-large;
+    margin-left: 0.5rem;
+
+}
+
+.output {
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.container {
+    color: white;
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.footer {
+
+    text-align: center;
+    border-top-right-radius: 0rem;
+
+}
+
+.link {
+    color: white;
+    font-weight: bold;
+
+}
+
+.footer-header {
+    font-weight: bold;
+    font-size: large;
+    margin-top: 5.5rem;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+
+}
+
+
+/**hypotenuse-btn **/
+
+.hypotenuse-btn {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: orange;
+    color: rgb(34, 34, 141);
+    border: none;
+    height: 2rem;
+    width: 6rem;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+
+}
+
+.length-input {
+    margin: auto;
+    display: auto;
+    margin-bottom: 2rem;
+    color: black;
+    height: 2rem;
+    font-weight: x-large;
+    text-align: center;
+}
+
+.label-hypotenuse {
+    margin: auto;
+    display: auto; 
+    color: white;
+    height: 2rem;
+    font-weight: large;
+    margin-left: 40rem;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="heading">
+        <div class="nav-brand"> </div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="isTriangle.html">IsTriangle?</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="index.html">TriangleQuiz</a>
+
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="hypotenuse.html">CalculateHypotenuse</a>
+            </li>
+        </ul>
+
+    </nav>
+    <h1 class="header">Triangle Quiz</h1>
+    <form class="quiz-form">
+        <div class="container">
+            <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?
+            </p>
+            <label> <input type="radio" value="45°" name="question1" />45°</label>
+            <label> <input type="radio" value="90°" name="question1" />90°</label>
+            <label> <input type="radio" value="60°" name="question1" />60°</label>
+        </div>
+
+        <div class="container">
+            <p>If a triangle has an angle of 90 degrees, what is it called?
+            </p>
+            <label> <input type="radio" value="obtuse" name="question2" />obtuse</label>
+            <label> <input type="radio" value="acute" name="question2" />acute</label>
+            <label> <input type="radio" value="right angled" name="question2" />right angled</label>
+        </div>
+    </form>
+    <button class="button" id="submit-btn">Submit</button>
+    <div class="output" id="output"></div>
+
+    <footer class="footer">
+        <div class="footer-header">Social Media Presence</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/vermasavita">
+                    github
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/say_saver">
+                    twitter
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/savita-verma-133782167">
+                    linkedin
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://savitaverma.netlify.app/">
+                    potfolio
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="mailto:svitaverma0@gmail.com">
+                    gmail
+                </a>
+            </li>
+        </ul>
+
+    </footer>
+    <script src="isTriangle.js"></script>
+</body>
+
+</html>

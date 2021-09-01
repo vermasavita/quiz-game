@@ -7,3 +7,6 @@ There are multiple games of triangle. User can play and increase there knowledge
 - Javscript
 - HTML
 - CSS
+
+## Want to contribute? 
+Share your feedback for improvement.

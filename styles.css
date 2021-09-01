@@ -1,6 +1,6 @@
 body {
     background-origin: padding-box;
-    font-size: large;
+    font-size: xlarge;
     font-family: 'Courier New', Courier, monospace;
     background-color: black;
 }
@@ -10,6 +10,7 @@ body {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 0rem;
+    font-size: x-large;
 }
 
 .link {
@@ -90,7 +91,7 @@ body {
 .footer-header {
     font-weight: bold;
     font-size: large;
-    margin-top: 5.5rem;
+    margin-top: 3rem;
 }
 
 .footer ul {
@@ -137,9 +138,43 @@ body {
 
 .label-hypotenuse {
     margin: auto;
-    display: auto; 
+    display: auto;
     color: white;
     height: 2rem;
     font-weight: large;
     margin-left: 40rem;
+}
+
+/**area*/
+
+
+.input {
+    margin: auto;
+    display: auto;
+    margin-bottom: 2rem;
+    color: black;
+    height: 2rem;
+    font-weight: x-large;
+    text-align: center;
+    margin-left: 0rem;
+
+}
+
+.area-button {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: orange;
+    color: rgb(34, 34, 141);
+    border: none;
+    height: 2rem;
+    width: 6rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rems
+}
+
+.desc{
+    color: white;
+    border: white;
+    text-align: center;
 }

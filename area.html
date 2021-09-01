@@ -3,13 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Triangle Quiz</title>
+    <title>Area of triangle</title>
     <link href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
-    <nav>
+    <nav >
         <div class="nav-brand"> </div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
@@ -27,30 +28,20 @@
             </li>
 
         </ul>
+    <h1 class="header">Area of Triangle</h1>
+    <h3 class="desc">Area of a triangle = 1/2(Base * Height)
+    </h3>
+    <label class="label-hypotenuse" for="input">Base(cm)
+        <input class="input" type="number">
+    </label>
+    <label class="label-hypotenuse" for="input">Height(cm)
+        <input class="input" type="number" />
+    </label>
+    <button class= "area-button" id="check-area">Check Area
 
-    </nav>
-    <h1 class="header">Triangle Quiz</h1>
-    <form class="quiz-form">
-        <div class="container">
-            <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?
-            </p>
-            <label> <input type="radio" value="45°" name="question1" />45°</label>
-            <label> <input type="radio" value="90°" name="question1" />90°</label>
-            <label> <input type="radio" value="60°" name="question1" />60°</label>
-        </div>
-
-        <div class="container">
-            <p>If a triangle has an angle of 90 degrees, what is it called?
-            </p>
-            <label> <input type="radio" value="obtuse" name="question2" />obtuse</label>
-            <label> <input type="radio" value="acute" name="question2" />acute</label>
-            <label> <input type="radio" value="right angled" name="question2" />right angled</label>
-        </div>
-    </form>
-    <button class="button" id="submit-btn">Submit</button>
+    </button>
     <div class="output" id="output"></div>
-
-    <footer class="footer">
+    <footer class="footer" style="padding: 5rem;">
         <div class="footer-header">Social Media Presence</div>
         <ul class="social-links list-non-bullet">
             <li class="list-item-inline">
@@ -81,7 +72,7 @@
         </ul>
 
     </footer>
-    <script src="isTriangle.js"></script>
+    <script src="area.js"></script>
 </body>
 
 </html>

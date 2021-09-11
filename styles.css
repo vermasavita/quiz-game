@@ -51,6 +51,11 @@ body {
     color: white;
 }
 
+.nav-pills{
+    text-align: center;
+   
+}
+
 .angle-input {
     margin: auto;
     display: auto;
@@ -85,8 +90,12 @@ body {
 .link {
     color: white;
     font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
 
 }
+
 
 .footer-header {
     font-weight: bold;

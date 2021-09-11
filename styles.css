@@ -40,13 +40,13 @@ body {
     width: 6rem;
     text-align: center;
     margin: auto;
-    margin-bottom: 2rems
+    margin-bottom: 1rems
 }
 
 .label {
     display: block;
     margin: auto;
-    padding-left: 2rem;
+    padding-left: 1rem;
     text-align: center;
     color: white;
 }
@@ -59,7 +59,7 @@ body {
 .angle-input {
     margin: auto;
     display: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: black;
     height: 2rem;
     font-weight: x-large;
@@ -76,7 +76,7 @@ body {
 .container {
     color: white;
     text-align: center;
-    padding: 2rem;
+    padding: 0.5rem;
 
 }
 
@@ -160,7 +160,7 @@ body {
 .input {
     margin: auto;
     display: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: black;
     height: 2rem;
     font-weight: x-large;
@@ -179,7 +179,7 @@ body {
     width: 6rem;
     text-align: center;
     margin: auto;
-    margin-bottom: 2rems
+    margin-bottom: 0rems
 }
 
 .desc{

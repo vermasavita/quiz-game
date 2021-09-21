@@ -22,7 +22,7 @@ function isTriangle() {
             output.innerText = "Enter valid number"
         } 
     }else{
-        output.innerText = "Empty field"
+        output.innerText = "Enter valid number"
     }
 
 

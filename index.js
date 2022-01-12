@@ -1,13 +1,13 @@
-var quizForm = document.querySelector(".quiz-form");
-var submitBtn = document.querySelector("#submit-btn");
-var output = document.querySelector("#output");
+let quizForm = document.querySelector(".quiz-form");
+let submitBtn = document.querySelector("#submit-btn");
+let output = document.querySelector("#output");
 
-var correctAnswer = ["90°", "right angled","15cm","180°","110°"];
+let correctAnswer = ["90°", "right angled","15cm","180°","110°"];
 
-function calculateScore() {
-    var score = 0;
-    var index = 0;
-    var formResult = new FormData(quizForm);
+const calculateScore = () => {
+    let score = 0;
+    let index = 0;
+    let formResult = new FormData(quizForm);
     for(let value of formResult.values()) {
         if(value === correctAnswer[index]) {
             score = score + 1;

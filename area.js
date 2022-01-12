@@ -1,14 +1,12 @@
-var input = document.querySelectorAll(".input");
-var checkArea = document.querySelector("#check-area");
-var output = document.querySelector("#output");
+let input = document.querySelectorAll(".input");
+let checkArea = document.querySelector("#check-area");
+let output = document.querySelector("#output");
 
-
-
-function calculateArea() {
-    var iptOne = Number(input[0].value);
-    var iptTwo = Number(input[1].value);
+const calculateArea = () => {
+    let iptOne = Number(input[0].value);
+    let iptTwo = Number(input[1].value);
     if(iptOne >0 && iptTwo >0){
-    var baseAndHeightProduct = iptOne * iptTwo;
+    let baseAndHeightProduct = iptOne * iptTwo;
     areaOfTriangle = (baseAndHeightProduct) / 2;
     output.innerText = `The area of the triangle is ${areaOfTriangle} cm²`;}
     else{

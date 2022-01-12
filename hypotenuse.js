@@ -1,15 +1,14 @@
-var lengthInput = document.querySelectorAll(".length-input");
-var hypotenuseBtn = document.querySelector("#calculate-hypotenuse-btn");
-var output = document.querySelector("#output");
+let lengthInput = document.querySelectorAll(".length-input");
+let hypotenuseBtn = document.querySelector("#calculate-hypotenuse-btn");
+let output = document.querySelector("#output");
 
-hypotenuseBtn.addEventListener('click', calculateHypotenuse);
 
-function calculateHypotenuse() {
-    var lengthIpt1 = Number(lengthInput[0].value);
-    var lengthIpt2 = Number(lengthInput[1].value);
+const calculateHypotenuse = () => {
+    let lengthIpt1 = Number(lengthInput[0].value);
+    let lengthIpt2 = Number(lengthInput[1].value);
     if (lengthIpt2 > 0 && lengthIpt1 > 0) {
-        var sumOfSquare = calculateSumOfSquare(lengthIpt1, lengthIpt2);
-        var lengthOfHypotenuse = Math.sqrt(sumOfSquare);
+        let sumOfSquare = calculateSumOfSquare(lengthIpt1, lengthIpt2);
+        let lengthOfHypotenuse = Math.sqrt(sumOfSquare);
         output.innerText = " Length of Hypotenuse is  " + lengthOfHypotenuse;
     } else {
         output.innerText = "Enter positive number";
@@ -18,8 +17,10 @@ function calculateHypotenuse() {
 
 }
 
-function calculateSumOfSquare(a, b) {
-    var sumOfSquare = a * a + b * b;
+const calculateSumOfSquare = (a, b) => {
+    let sumOfSquare = a * a + b * b;
     return sumOfSquare
 
 }
+
+hypotenuseBtn.addEventListener('click', calculateHypotenuse);
